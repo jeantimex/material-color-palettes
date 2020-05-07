@@ -1,0 +1,30 @@
+{
+  "name": "material-color-palettes",
+  "version": "1.0.0",
+  "description": "Material color palettes",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeantimex/material-color-palettes.git"
+  },
+  "keywords": [
+    "material",
+    "color",
+    "palettes"
+  ],
+  "author": "jeantimex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeantimex/material-color-palettes/issues"
+  },
+  "homepage": "https://github.com/jeantimex/material-color-palettes#readme"
+}
