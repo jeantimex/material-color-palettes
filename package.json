@@ -1,6 +1,6 @@
 {
   "name": "material-color-palettes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Material color palettes",
   "main": "dist/index.js",
   "dependencies": {
