@@ -166,4 +166,4 @@ const materialColors = new Map(Object.entries({
   ],
 }));
 
-export default materialColors;
+module.exports = materialColors;
