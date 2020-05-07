@@ -4,10 +4,11 @@ module.exports = {
   mode: 'production',
   entry: './src/index.js',
   output: {
-    path: path.resolve('dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: 'material-color-palettes.js',
     library: 'materialColorPalettes',
     libraryTarget: 'umd',
+    globalObject: 'this',
   },
   module: {
     rules: [
@@ -17,8 +18,5 @@ module.exports = {
         use: 'babel-loader',
       },
     ],
-  },
-  resolve: {
-    extensions: ['.js'],
   },
 };

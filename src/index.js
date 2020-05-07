@@ -1,4 +1,4 @@
-materialColors = new Map(Object.entries({
+const materialColors = new Map(Object.entries({
   red: [
     '#d50000', '#ff1744',
     '#ff5252', '#ff8a80',
