@@ -5,8 +5,9 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve('dist'),
-    filename: 'index.js',
-    libraryTarget: 'amd',
+    filename: 'material-color-palettes.js',
+    library: 'materialColorPalettes',
+    libraryTarget: 'umd',
   },
   module: {
     rules: [

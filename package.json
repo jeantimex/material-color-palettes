@@ -2,7 +2,8 @@
   "name": "material-color-palettes",
   "version": "1.0.3",
   "description": "Material color palettes",
-  "main": "dist/index.js",
+  "main": "dist/material-color-palettes.js",
+  "module": "src/index.js",
   "dependencies": {
     "@babel/core": "^7.9.6",
     "babel-loader": "^8.1.0",
