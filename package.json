@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build:browser": "webpack && cp dist/material-color-palettes.js examples/browser",
-    "build:node": "webpack && cp dist/material-color-palettes.js examples/node/ && node examples/node/example.js"
+    "build:node": "webpack && cp dist/material-color-palettes.js examples/node/ && node examples/node/example.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

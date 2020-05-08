@@ -8,7 +8,6 @@ module.exports = {
     filename: 'material-color-palettes.js',
     library: 'materialColorPalettes',
     libraryTarget: 'umd',
-    globalObject: 'this',
   },
   module: {
     rules: [
